@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mi Calculadora</string>
+    <string name="bienvenida_Txt"> Welcome to mi APP calculator</string>
+    <string name="intro1_Txt"> Insert the first number</string>
+    <string name="intro2_Txt">Insert the second number</string>
+    <string name="num1_Edit">Number 1</string>
+    <string name="num2_Edit">Number 2</string>
+    <string name="sum_btn">Plus</string>
+    <string name="rest_btn">Substr</string>
+    <string name="mult_btn">Mult</string>
+    <string name="div_btn">Division</string>
+    <string name="result_Txt">Result of operation is: </string>
+</resources>
