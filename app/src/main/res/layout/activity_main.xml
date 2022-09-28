@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bienvenida_Txt"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/calculadoraImg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/Title"
+            android:layout_marginTop="5dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/img" />
+
+        <TextView
+            android:id="@+id/intro1Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/calculadoraImg"
+
+            android:text="@string/num1_Edit"/>
+
+        <EditText
+            android:id="@+id/num1Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/intro1Text"
+            android:inputType="number"
+            android:hint="@string/intro1_Txt" />
+
+        <TextView
+            android:id="@+id/intro2text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/num1Edit"
+            android:text="@string/num2_Edit" />
+
+        <EditText
+            android:id="@+id/num2Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/intro2text"
+            android:inputType="number"
+            android:hint="@string/intro2_Txt" />
+
+        <LinearLayout
+            android:id="@+id/TableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/num2Edit"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sumarBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/sum_btn" />
+
+            <Button
+                android:id="@+id/restarBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/rest_btn" />
+
+            <Button
+                android:id="@+id/multiplicarBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/mult_btn" />
+
+            <Button
+                android:id="@+id/dividirBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/div_btn" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/resultadoTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TableRow1"
+            android:text="@string/result_Txt" />
+
+        <TextView
+            android:id="@+id/resultadoEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/resultadoTxt"
+            android:textSize="24dp"
+            android:gravity="center_vertical"
+            />
+    </LinearLayout>
+</layout>

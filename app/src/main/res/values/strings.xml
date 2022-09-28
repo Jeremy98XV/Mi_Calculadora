@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mi Calculadora</string>
+    <string name="bienvenida_Txt">Bienvenidos a mi APP calculadora</string>
+    <string name="intro1_Txt">Introduce el primer numero</string>
+    <string name="intro2_Txt">Introduce el segundo numero</string>
+    <string name="num1_Edit">Numero 1</string>
+    <string name="num2_Edit">Numero 2</string>
+    <string name="sum_btn">Sumar</string>
+    <string name="rest_btn">Restar</string>
+    <string name="mult_btn">Mult</string>
+    <string name="div_btn">Dividir</string>
+    <string name="result_Txt">El resultado de la operacíon es:</string>
+</resources>
